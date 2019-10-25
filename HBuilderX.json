@@ -1,12 +1,12 @@
 {
     "homepage": "https://www.dcloud.io/hbuilderx.html",
     "description": "一款支持HTML5的轻量Web开发IDE",
-    "version": "2.3.6.20191021",
+    "version": "2.3.7.20191024",
     "license": "",
-    "url": "https://download.dcloud.net.cn/HBuilderX.2.3.6.20191021.zip",
+    "url": "https://download.dcloud.net.cn/HBuilderX.2.3.7.20191024.zip",
     "extract_dir": "HBuilderX",
     "bin": "HBuilderX.exe",
-    "hash": "7804996CEE176DE700B4F8BD4FF949A4FB567D88320559D59B25AB9B66A7AFF5",
+    "hash": "88D1E0908556CC1F762AFE3EB9C6BBFD92A4605B95DA612C6865561C40F846EF",
     "shortcuts": [
         [
             "HBuilderX.exe",
