@@ -1,15 +1,14 @@
 {
     "homepage": "https://www.dcloud.io/hbuilderx.html",
     "description": "一款支持HTML5的轻量Web开发IDE",
-    "version": "2.3.7.20191024",
+    "version": "2.4.2.20191115",
     "architecture": {
         "64bit": {
-            "url": "https://download.dcloud.net.cn/HBuilderX.2.3.7.20191024.zip",
-            "hash": "88D1E0908556CC1F762AFE3EB9C6BBFD92A4605B95DA612C6865561C40F846EF",
+            "url": "https://download.dcloud.net.cn/HBuilderX.2.4.2.20191115.zip",
+            "hash": "4a36420a0e59cc129c16f8bc0dc472608e8b0f855e8198322703b393b59c627a",
             "extract_dir": "HBuilderX",
             "bin": "HBuilderX.exe"
         }
-        
     },
     "shortcuts": [
         [
@@ -17,19 +16,18 @@
             "HBuilderX"
         ]
     ],
-    "checkver":{
-        "url":"https://www.dcloud.io/docs/HBuilder.json",
-        "jp":"$.win[1].version"
+    "checkver": {
+        "url": "https://www.dcloud.io/docs/HBuilder.json",
+        "jp": "$.win[1].version"
     },
     "autoupdate": {
-        "architecture":{
-            "64bit":{
-                "url":"https://download.dcloud.net.cn/HBuilderX.$version.zip"
+        "architecture": {
+            "64bit": {
+                "url": "https://download.dcloud.net.cn/HBuilderX.$version.zip"
             },
-            "hash":{
-                "url":"$url.sha256"
+            "hash": {
+                "url": "$url.sha256"
             }
-
-        }     
+        }
     }
 }
