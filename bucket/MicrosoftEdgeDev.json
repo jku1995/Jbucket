@@ -1,0 +1,24 @@
+{
+    "description": "Microsoft Edge Chromium Dev. Microsoft Edge browser based on Chromimum.",
+    "homepage":"https://www.microsoftedgeinsider.com/download/dev",
+    "license": "MIT",
+    "checkver":{
+        "url":"https://techcommunity.microsoft.com/t5/forums/searchpage/tab/message?advanced=false&allow_punctuation=false&q=update%20is%20live",
+        "regex":"Dev.*?channel.*?update.*?to.*?([\\d.]+)\\s+"
+    },
+    "autoupdate":{
+        "architecture":
+        {
+         "64bit":{
+             "url":"https://MicrosoftEdge_X64_$version.exe",
+             "hash":"https://MicrosoftEdge_X64_$version.exe.sha256"
+         },
+
+        },
+    }
+    "bin":[
+        [
+            "msedge.exe",
+            "msedge_dev"
+        ]
+    ],
