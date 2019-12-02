@@ -21,7 +21,7 @@
         "regex": "w3cschool 离线版客户端 (?<version>v\\d.+)"
     },
        "notes": [
-        "通过pc客户端离线下载教程的缓存位置：C:\Users\Administrator\AppData\Roaming\w3cnote\nedb55"
+        "通过pc客户端离线下载教程的缓存位置：C:/Users/Administrator/AppData/Roaming/w3cnote/nedb55"
     ],
     "autoupdate":{
         "64bit": {
