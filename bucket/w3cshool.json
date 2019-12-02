@@ -1,0 +1,32 @@
+{
+    "homepage":"https://www.w3school.com.cn/",
+    "description":"w3cshool离线Windows客户端",
+    "version":"v2.1.0",
+    "architecture":{
+        "64bit":{
+            "url":"https://7npmedia.w3cschool.cn/W3Cschool-v2.1.0-win32-x64.zip",
+            "hash":"ED8462DA0DD9D8CBA659B3A40C23911170CF5D192C834CC480C9907FC937AF2D",
+            "extract_dir":"w3cshool-win",
+            "bin":"W3Cschool.exe"
+        }
+    },
+    "shortcut":[
+        [ 
+            "W3Cschool.exe",
+            "W3Cshool"
+        ]
+    ],  
+    "checkver":{
+        "url": "https://www.w3cschool.cn/download",
+        "regex": "w3cschool 离线版客户端 (?<version>v\\d.+)"
+    },
+    "autoupdate":{
+        "64bit": {
+            "url": "https://7npmedia.w3cschool.cn/W3Cschool-$version-win32-x64.zip"
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+    
+}
