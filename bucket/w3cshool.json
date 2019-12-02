@@ -6,7 +6,7 @@
         "64bit":{
             "url":"https://7npmedia.w3cschool.cn/W3Cschool-v2.1.0-win32-x64.zip",
             "hash":"ED8462DA0DD9D8CBA659B3A40C23911170CF5D192C834CC480C9907FC937AF2D",
-            "extract_dir":"w3cshool-win",
+            "extract_dir":"W3Cschool-win32-x64",
             "bin":"W3Cschool.exe"
         }
     },
