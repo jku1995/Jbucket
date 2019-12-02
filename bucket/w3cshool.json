@@ -17,7 +17,7 @@
         ]
     ],  
     "checkver":{
-        "url": "https://www.w3cschool.cn/download",
+        "url": "https://www.w3cschool.cn/download.html",
         "regex": "w3cschool 离线版客户端 (?<version>v\\d.+)"
     },
        "notes": [
@@ -25,7 +25,7 @@
     ],
     "autoupdate":{
         "64bit": {
-            "url": "https://7npmedia.w3cschool.cn/W3Cschool-$version-win32-x64.zip"
+            "url": "https://7npmedia.w3cschool.cn/W3Cschool-$matchVersion-win32-x64.zip"
         },
         "hash": {
             "url": "$url.sha256"
