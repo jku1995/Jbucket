@@ -12,7 +12,7 @@
     "shortcut":[
         [ 
             "ReverseProxy_windows_amd64.exe",
-            "rp"
+            "reverseproxy"
         ]
     ], 
     "notes": [
